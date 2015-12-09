@@ -1,3 +1,5 @@
+
+
 What happens when you initialize a repository? Why do you need to do it?
 A hidden folder called .git is created, which will contain all the metadata
 required to manage version control. Without it, Git commands won't work.
