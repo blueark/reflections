@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+A hidden folder called .git is created, which will contain all the metadata
+required to manage version control. Without it, Git commands won't work.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+The staging area provides an area to choose what files will comprise the next
+commit. One advantage is that it lets us keep working on our files in the
+working directory, but selectively choose which ones make sense to add to the
+repository in the next commit. Not all changed files in the working directory
+are necessarily part of the same logical change.
