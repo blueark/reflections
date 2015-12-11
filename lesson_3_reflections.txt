@@ -12,3 +12,13 @@ stay up-to-date with your remote repository?
 By manually pulling changes, you can deal with conflicts in one step. Otherwise, you
 might end up dealing with conflicts on every commit, which would quickly become
 distracting.
+
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+A branch is part of the same repository, where a separate version is active for
+developing new features, etc. A clone makes a new repository based on another.
+Forks are a GitHub concept, similar to clone, but on the GitHub servers. It also
+maintains a link to the original for informational purposes. I suspect there are
+probably other features that forks allow that we'll get to later...
