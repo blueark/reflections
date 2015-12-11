@@ -4,3 +4,11 @@ I think remote repositories are useful for collaborative work, or even solo proj
 where you might be working on multiple computers (say, work and home). It also provides
 an extra layer of security in case your PC breaks down: at least any code that has been
 pushed to the remote will still be available.
+
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+By manually pulling changes, you can deal with conflicts in one step. Otherwise, you
+might end up dealing with conflicts on every commit, which would quickly become
+distracting.
