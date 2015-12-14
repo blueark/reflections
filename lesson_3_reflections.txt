@@ -28,3 +28,16 @@ What is the benefit of having a copy of the last known state of the remote store
 locally?
 
 It helps with merging collaborative changes that may conflict with your own copy.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+There are probably a few options for collaboration. If you were all on the same
+network, the code base could be kept centrally, and people could work on individual
+files as necessary. However, it would be difficult to allow people to work on
+different parts of the same file. If the contributors were geographically dispersed,
+this becomes even more difficult. The problem of keeping the code base in sync is
+a difficult one. Comments and feedback would need to be carried out separate from
+the code. In short, it would be a very time-consuming, error-prone, inflexible
+approach to development.
