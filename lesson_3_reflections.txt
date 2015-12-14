@@ -21,4 +21,10 @@ A branch is part of the same repository, where a separate version is active for
 developing new features, etc. A clone makes a new repository based on another.
 Forks are a GitHub concept, similar to clone, but on the GitHub servers. It also
 maintains a link to the original for informational purposes. I suspect there are
-probably other features that forks allow that we'll get to later...
+probably other features that forks allow that we'll get to later.
+
+
+What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+It helps with merging collaborative changes that may conflict with your own copy.
